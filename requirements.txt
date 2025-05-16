@@ -1,0 +1,16 @@
+torch==2.5.1
+transformers==4.44.1
+datasets==2.19.1
+peft==0.12.0
+pytorch-wavelets
+nltk==3.8.1
+numpy==1.26.4
+filelock==3.13.1
+accelerate==1.0.1
+rouge-score
+rouge-chinese==1.0.3
+tqdm==4.66.4
+scipy==1.13.1
+sentencepiece==0.2.0
+pandas==2.2.2
+regex==2023.10.3
