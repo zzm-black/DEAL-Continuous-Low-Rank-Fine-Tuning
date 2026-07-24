@@ -128,7 +128,7 @@ CUDA_VISIBLE_DEVICES=2 python src/Llama3_run_wavelet.py \
    --output_dir logs_and_outputs_llama/order_2/outputs/4-yahoo \
    --per_device_train_batch_size 8 \
    --per_device_eval_batch_size 8 \
-   --gradient_accumulation_steps 4\
+   --gradient_accumulation_steps 4 \
    --learning_rate 1e-05 \
    --num_train_epochs 1 \
    --run_name order2_round4 \

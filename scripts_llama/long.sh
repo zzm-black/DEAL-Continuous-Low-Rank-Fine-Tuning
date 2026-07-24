@@ -5,7 +5,7 @@ set -x
 export CUDA_VISIBLE_DEVICES=2
 
 datasets=("yelp" "amazon" "MNLI" "CB" "COPA" "QQP" "RTE" "IMDB" "SST-2" "dbpedia" "agnews" "yahoo" "MultiRC" "BoolQA" "WiC")
-epochs=(1 1 2 1 1 1 1 1 1 1 1 1 1 1 1)
+epochs=(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)
 
 model_path="initial_model/llama"
 
@@ -54,4 +54,3 @@ for i in "${!datasets[@]}"; do
 
   sleep 5
 done
-
