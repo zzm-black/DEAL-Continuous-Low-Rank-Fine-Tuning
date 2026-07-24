@@ -1,0 +1,26 @@
+{
+    "SC": [
+    ],
+    "TC": [     
+        {
+            "sampling strategy": "full",
+            "dataset name": "yahoo"
+        },
+        {
+            "sampling strategy": "full",
+            "dataset name": "dbpedia"
+        }
+    ],
+    "NLI": [
+    ],
+    "QQP": [  
+    ],
+    "WiC": [ 
+    ],
+    "MultiRC": [ 
+    ],
+    "COPA": [ 
+    ],
+    "BoolQA": [
+    ]
+}
